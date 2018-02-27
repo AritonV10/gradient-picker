@@ -2,7 +2,7 @@ var color1 = document.getElementById("color1");
 var color2 = document.getElementById("color2");
 var body = document.getElementById("bodyId");
 var direction = document.getElementById("direction");
-var directions = ["left", "right", "center", "bottom", "top"];
+var directions = ["left", "right", "bottom right", "bottom", "top"];
 var directionDisplay = document.getElementById("directionDisplay");
 var cssDisplay = document.querySelector("h2");
 var number;
@@ -37,4 +37,5 @@ function changeColor(){
 	cssDisplay.textContent = "linear-gradient(to " + direction.value + ", " + color1.value + ", " + color2.value +")";
 
 }
+
 
