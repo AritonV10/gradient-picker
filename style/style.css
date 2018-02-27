@@ -25,6 +25,25 @@ h2{
 	font-size: 14pt;
 }
 
+
+
+
+.fa{
+
+	font-size: 54px;
+}
+
+#shapeDisplay{
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: rgba(0, 0, 0, 0.3);
+    font-size: 30pt;
+    font-family: Arial, sans-serif;
+
+}
+
 #directionDisplay{
 	position: absolute;
 	bottom: 0;
@@ -51,6 +70,7 @@ h2{
 }
 
 button{
+	margin-left: 2px;
 	position: relative;
 	top: 50%;
 	left: auto;
@@ -68,3 +88,7 @@ button:hover{
 	transform: scale(1.2, 1.2);
 }
 
+button:disabled{
+	background-color: grey;
+	cursor: no-drop;
+}
